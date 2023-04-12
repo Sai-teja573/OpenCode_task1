@@ -1,0 +1,51 @@
+Question : Explain very briefly the difference between Git and GitHub. 
+
+Answer:
+
+# GIT : Git is a distributed version control system that tracks changes to source code. 
+# GITHUB : GitHub is a web-based hosting service for git repository. 
+
+Differences:
+Git is a command line interface (CLI) , a command line tool that requires a interface to interact with the system. Where as GitHub is a graphical interface and a development platform created for developers. 
+
+GitHub is a open source it mean code is stored in its main server, but in case of git it creates a local repository to track the changes locally. 
+
+Git can be installed locally but GitHub is hosted on cloud server. 
+Git stores and catalog changes in code in a repository. 
+GitHub provides a platform to collaborate with others to work together at same time. 
+Git can run without GitHub as other web-based git repositories are also available. 
+
+Question : Explain very briefly any 5 basic git commands.
+
+Answer:
+git branch: Lists, creates, or deletes branches.
+
+git checkout: Switches to a different branch.
+
+git merge: Merges changes from one branch into another.
+
+git status: Shows the status of the working directory and staging area.
+
+git log: Shows a log of all commits made in the repository.
+
+Question : How to make a Pull Request?
+
+Answer:
+
+To make a pull request in GitHub, follow these steps:
+
+Fork the repository: Go to the repository you want to contribute to and click the "Fork" button in the top-right corner of the page. This will create a copy of the repository in your own GitHub account.
+
+Clone the repository: Go to your own repository and copy the URL to clone the repository. Then, open your command line interface and type git clone <repository-url> to create a local copy of the repository on your machine.
+
+Create a new branch: Type git checkout -b <branch-name> to create a new branch and switch to it. This branch should include the changes you want to make to the original repository.
+
+Make your changes: Edit or add files to the repository to make the changes you want to contribute.
+
+Commit your changes: Use git add <filename> to stage the changes you made and then git commit -m "Commit message" to commit them to the repository.
+
+Push the changes to GitHub: Use git push origin <branch-name> to push your changes to the remote repository on GitHub.
+
+Create a pull request: Go to your forked repository on GitHub and click the "New pull request" button. Choose the original repository as the base repository and your own forked repository as the head repository. GitHub will compare the changes between the two repositories and you can add a title and description for your pull request.
+
+Submit the pull request: Once you're satisfied with the changes and the description, click the "Create pull request" button to submit your pull request to the original repository.
